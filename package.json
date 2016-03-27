@@ -1,0 +1,25 @@
+{
+  "name": "isomorphic-ts",
+  "version": "1.0.0",
+  "description": "Isomorphic typescript web application example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigbassroller/isomorphic-ts.git"
+  },
+  "keywords": [
+    "isomorphic",
+    "javascript",
+    "typescript",
+    "universal"
+  ],
+  "author": "Michael Chavez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bigbassroller/isomorphic-ts/issues"
+  },
+  "homepage": "https://github.com/bigbassroller/isomorphic-ts#readme"
+}
