@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/bigbassroller/isomorphic-ts/issues"
   },
-  "homepage": "https://github.com/bigbassroller/isomorphic-ts#readme"
+  "homepage": "https://github.com/bigbassroller/isomorphic-ts#readme",
+  "dependencies": {
+    "hapi": "^13.2.2"
+  }
 }

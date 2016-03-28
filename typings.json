@@ -1,0 +1,9 @@
+{
+  "ambientDependencies": {
+    "hapi": "registry:dt/hapi#13.0.0+20160326163053",
+    "node": "registry:dt/node#4.0.0+20160319033040"
+  },
+  "dependencies": {
+    "debug": "registry:npm/debug#2.0.0+20160211003958"
+  }
+}
