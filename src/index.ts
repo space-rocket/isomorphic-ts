@@ -1,20 +1,24 @@
-import Hapi from 'hapi';
+/// <reference path="../typings/tsd.d.ts" />
 
-// Create a server with a host and port
+import * as Hapi from 'hapi';
+
 const server = new Hapi.Server();
-server.connection({
-    host: 'localhost',
-    port: 8000
+server.connection({ 
+    host: 'localhost', 
+    port: 8000 
 });
 
-// Add the route
 server.route({
     method: 'GET',
-    path:'/hello',
+    path:'/hello/{name}', 
     handler: function (request, reply) {
-       reply('hello world');
+
+        return reply('hello ' + request.params['name']);
     }
 });
 
-// Start the server
-server.start();
+server.start((err) => {
+    if (err) { throw err; }
+    console.log('Server running at:', server.info.uri);
+});
+
