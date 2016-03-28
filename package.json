@@ -14,7 +14,9 @@
     "isomorphic",
     "javascript",
     "typescript",
-    "universal"
+    "universal",
+    "hapi",
+    "gulp"
   ],
   "author": "Michael Chavez",
   "license": "MIT",
@@ -24,5 +26,18 @@
   "homepage": "https://github.com/bigbassroller/isomorphic-ts#readme",
   "dependencies": {
     "hapi": "^13.2.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-newer": "^1.1.0",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.12.1",
+    "merge2": "^1.0.1",
+    "path": "^0.12.7",
+    "run-sequence": "^1.1.5",
+    "typescript": "^1.9.0-dev.20160327"
   }
 }
