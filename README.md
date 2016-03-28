@@ -1,4 +1,6 @@
 ## Just getting started
 
 ```npm install```
-```tsc src/index.ts```
+```tsd install```
+```typings install```
+```gulp```

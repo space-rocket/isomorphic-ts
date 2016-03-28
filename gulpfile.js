@@ -55,9 +55,7 @@ gulp.task('copy', function () {
 gulp.task('scripts', function() {
 	let tsResult = gulp.src('src/**/*.ts')
 	  .pipe(sourcemaps.init()) 
-		.pipe(ts({
-			sortOutput: true
-		}));
+		.pipe(ts(tsProject));
  
     return tsResult.js
         .pipe(sourcemaps.write('.'))
