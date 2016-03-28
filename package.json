@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/bigbassroller/isomorphic-ts#readme",
   "dependencies": {
-    "hapi": "^13.2.2"
+    "hapi": "^13.2.2",
+    "nunjucks": "^2.4.1"
   },
   "devDependencies": {
     "gulp": "^3.9.1",

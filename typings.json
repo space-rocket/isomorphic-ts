@@ -1,7 +1,8 @@
 {
   "ambientDependencies": {
     "hapi": "registry:dt/hapi#13.0.0+20160326163053",
-    "node": "registry:dt/node#4.0.0+20160319033040"
+    "node": "registry:dt/node#4.0.0+20160319033040",
+    "nunjucks": "registry:dt/nunjucks#0.0.0+20160220114617"
   },
   "dependencies": {
     "debug": "registry:npm/debug#2.0.0+20160211003958"
